@@ -387,4 +387,13 @@ h2{
 		padding-top: 1rem;
 		padding-right:5rem; 
 	}
+	.imagenes_de_logos{
+		padding-bottom: 1rem;	
+	}
+	.imagenes_de_logos_abajo{
+		padding-bottom: 3rem;
+	}
+	.margin_bottom_cero{
+		margin-bottom: 1.5rem;
+	}
 }
