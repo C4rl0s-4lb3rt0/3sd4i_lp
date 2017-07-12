@@ -1,0 +1,143 @@
+body{
+	background-color: #3c2d53;
+	font-family: 'Lato';
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    color: #164290;
+    font-size: 3rem;
+}
+
+.p_chef{
+	color: #3c2d53;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+.contacto_posible{
+    color: #3c2d53;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.tank_cuadro{
+	background-color: white;
+	margin-top: 5rem; 
+}
+
+.margin_top{
+	margin-top: 3rem;
+	/*margin-bottom: 5rem;	*/
+}
+
+.recuadro{
+	background-color: white
+}
+
+
+.recuadro_img{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	-webkit-box-shadow: 0px 20px 16px -6px rgba(30,15,54,1);
+	-moz-box-shadow: 0px 20px 16px -6px rgba(30,15,54,1);
+	box-shadow: 0px 20px 16px -6px rgba(30,15,54,1);
+}
+
+
+.btn-sample { 
+  color: #ffffff; 
+  background-color: #7f32de; 
+  border-color: #7f32de; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #221438; 
+  border-color: #3C2D53; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #3C2D53; 
+  border-color: #3C2D53; 
+} 
+ 
+.btn-sample .badge { 
+  color: #3C2D53; 
+  background-color: #ffffff; 
+}
+
+
+.logo_escuela img{
+  height:50;
+   width:20%;
+}
+
+.col-xs-10{
+  min-height: 0px !important;
+}
+
+@media only screen and (max-width: 400px) {
+  h1{
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+      line-height: 1.3;
+  }
+  .logo_escuela img{
+      width:60%;
+  }  
+  .recuadro{
+    padding-left:1.9rem;
+    padding-right: 1.9rem;
+  }
+  .p_chef{
+    font-size: 1.5rem;
+  }
+  .contacto_posible{
+    font-size: 1.1rem; 
+  }
+  .tank_cuadro{
+    margin-top: 2rem;
+  }
+  .recuadro_img{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .col-xs-10{
+    min-height: 0px !important;
+  }
+  .recuadro_img{
+    margin-bottom: 2rem;
+  }
+}
