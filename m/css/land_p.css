@@ -70,14 +70,32 @@ select.form-control:focus{
 .col_slider{
 	padding-left: 0px;
 	padding-right: 0px;
+	overflow: hidden;
 }
 
 .btn-sample { 
   color: #ffffff; 
   background-color: #5bd7a8; 
   border-color: #5bd7a8; 
+  padding: .6rem 4rem;
 } 
  
+.imagenes_de_logos_abajo{
+	padding-top: 0rem
+}
+
+
+.padding_uno_bottom{
+	padding-bottom: 1rem;
+}
+
+.padding_uno_left{
+	padding-left: 1rem;
+}
+
+.margin_bottom_cero{
+	margin-bottom: 0rem; 
+}
 .btn-sample:hover, 
 .btn-sample:focus, 
 .btn-sample:active, 
@@ -134,9 +152,14 @@ fieldset[disabled] .btn-sample.active {
 }
 
 input.form-control:focus{
-	border-color:#4d00c3;
-	background-color: #dccdf2;
-	border: 1px solid;
+	/*border-color:#491ea3;*/
+	background-color: #f6f4fb;
+	border: 1px solid  #f6f4fb;
+
+	-webkit-box-shadow: 3px 3px 9px -1px rgba(73,46,163,0.45);
+	-moz-box-shadow: 3px 3px 9px -1px rgba(73,46,163,0.45);
+	box-shadow: 3px 3px 9px -1px rgba(73,46,163,0.45);
+
 }
 
 #search-bar{
@@ -170,7 +193,7 @@ legend{
     font-size: 0.8rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     color:#164290;
 }
 
@@ -180,12 +203,19 @@ h2{
     font-size: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     color:#3c2d53;
-    font-weight: bold;
-    padding-bottom: 1rem;	
+    font-weight: normal;
+    padding-bottom: .5rem;
+    line-height: 1.5;	
 }
 
+.form-control{
+	border-radius: 0rem !important; 
+	background-color: #f6f4fb;
+	font-weight: 300;
+	border: 1px solid #f6f4fb;
+}
 
 .form-control::-webkit-input-placeholder { color: #3c2d53; }  /* WebKit, Blink, Edge */
 .form-control:-moz-placeholder { color: #3c2d53; }  /* Mozilla Firefox 4 to 18 */
@@ -200,7 +230,7 @@ h2{
 
 .imagenes_de_logos{
 	padding-bottom: 0rem;	
-	padding-top: 1.5rem;
+	padding-top: 2rem;
 }
 
 .formualrio{
@@ -259,7 +289,7 @@ h2{
 
 
 .text_bullets{
-    font-size: .5rem;
+    font-size: .6rem;
     color: gray;
 }
 
@@ -310,6 +340,10 @@ h2{
         font-size: 2.5rem;
  
 	}
+	.text_bullets{
+	    font-size: .7rem;
+	    color: gray;
+	}
 
 	.formualrio {
         background: rgba(0, 0, 0, 0);
@@ -340,5 +374,17 @@ h2{
 		padding-left: 0px;
         padding-right: 0px;	
 	}
-
+	.espacio_mobile{
+		padding-top: 1rem;
+		padding-left: 0px;
+	}
+	.primer_mobile{
+		padding-left:3rem;
+		padding-right:3rem; 
+	}
+	.segundo_mobile{
+		padding-left:5rem;
+		padding-top: 1rem;
+		padding-right:5rem; 
+	}
 }
