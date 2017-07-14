@@ -31,20 +31,26 @@ width: 100%;
 .col_formulario{
 	background-color:white;
 	height: initial;
-}
-
-.ejemplo{
+	/*border: 1px solid red;*/
 	display: -ms-flex;
 	display: -webkit-flex;
 	display: flex;
 }
 
-.ejemplo_adentro{
+.contenedor{
+	/*border: 1px solid blue;	*/
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: inherit;
+}
+
+.ejemplo{
+}
+
+.ejemplo_adentro{
 
 }
 
