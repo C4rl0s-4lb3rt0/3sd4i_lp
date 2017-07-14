@@ -33,6 +33,21 @@ width: 100%;
 	height: initial;
 }
 
+.ejemplo{
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.ejemplo_adentro{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
 #asunto{
 	color: #204a91;
 }
