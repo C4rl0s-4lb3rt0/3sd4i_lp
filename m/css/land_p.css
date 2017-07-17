@@ -334,6 +334,9 @@ h2{
 			left: 0;
 			text-align: center;
 			/*border:1px solid red;*/
+	} 
+	.contenedor{
+		display: block;
 	}   
 }
 
@@ -417,4 +420,7 @@ h2{
 	.margin_bottom_cero{
 		margin-bottom: 1.5rem;
 	}
+	.contenedor{
+		display: block;
+	} 
 }
