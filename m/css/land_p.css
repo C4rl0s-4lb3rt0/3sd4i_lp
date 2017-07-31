@@ -221,7 +221,7 @@ legend{
 
 h2{
 	text-align: left;
-    font-size: 1rem;
+    font-size: .8rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1.5rem;
@@ -251,7 +251,7 @@ h2{
 
 .imagenes_de_logos{
 	padding-bottom: 0rem;	
-	padding-top: 2rem;
+	padding-top: 1rem;
 }
 
 .formualrio{
@@ -314,12 +314,54 @@ h2{
     color: gray;
 }
 
+.proximamente{
+	color: #164290;
+    font-size: 1.2rem;
+    padding-top: .5rem;
+    font-weight: 300;
+}
+.mes{
+	color: #5bd7a8;
+	font-weight: bold;
+}
 
+.inscripciones_2{
+	color:#164290;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-bottom: 0px;
+	/*margin-bottom: 0.3rem;*/
+}
+.inscripciones_3{
+	color:#164290;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	/*margin-bottom: 0px;	*/
+}
 
+.inscripciones{
+	color:666666;
+	font-size: 1rem;
+	margin-bottom: 0rem;
+}
 
+.informacion{
+	color:#666666;
+	font-size: .8rem;
+}
 
+.contenedor_prox{
+	border:1px solid #164290;
+	-webkit-box-shadow: 0px 0px 88px 0px rgba(22,66,144,0.15);
+	-moz-box-shadow: 0px 0px 88px 0px rgba(22,66,144,0.15);
+	box-shadow: 0px 0px 88px 0px rgba(22,66,144,0.15);
+	background: 
+}
 
-
+.mail{
+	color: #0052a3;
+	font-weight: bold;
+}
 
 
 
